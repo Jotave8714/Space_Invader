@@ -1,13 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://c0vw8q6fq1cnl"]
+[gd_scene load_steps=5 format=3 uid="uid://p5i4m48f7pdj"]
 
-[ext_resource type="Script" path="res://start_screen.gd" id="1_4vjld"]
 [ext_resource type="FontFile" uid="uid://ch103gi2tob72" path="res://font/andina.ttf" id="1_jnj5r"]
 [ext_resource type="Texture2D" uid="uid://m4ub6oll4ikv" path="res://Invaders/Invader3-1.png" id="2_twtki"]
 [ext_resource type="Texture2D" uid="uid://bn227mp3yqjlo" path="res://Invaders/Invader2-1.png" id="3_8irw4"]
 [ext_resource type="Texture2D" uid="uid://dy2h5dklc8h7p" path="res://Invaders/Invader1-1.png" id="4_omm2r"]
 
 [node name="Start Screen" type="CanvasLayer"]
-script = ExtResource("1_4vjld")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 15
